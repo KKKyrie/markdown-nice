@@ -15,7 +15,7 @@ ReactDOM.render(
       isGiteeOpen: true,
       isGitHubOpen: true,
     }}
-    defaultTitle="Markdown Nice"
+    defaultTitle="Kyrie Markdown Nice"
   />,
   document.getElementById("root"),
 );
