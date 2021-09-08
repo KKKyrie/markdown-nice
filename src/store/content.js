@@ -51,6 +51,7 @@ const store = new Content();
 
 // 如果为空先把数据放进去
 if (window.localStorage.getItem(CONTENT) === null) {
+  console.log('content为空，先把模板放进去');
   window.localStorage.setItem(CONTENT, TEMPLATE.content);
 }
 if (!window.localStorage.getItem(STYLE)) {
