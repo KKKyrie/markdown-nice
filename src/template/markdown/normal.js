@@ -87,6 +87,7 @@ export default `/* 原谅绿 */
 /* 引用文字 */
 #nice .multiquote-1 p {
   color: #085349;
+  letter-spacing: 1px;
 }
 
 /* 链接 */
@@ -156,7 +157,7 @@ export default `/* 原谅绿 */
 
 /* 图片描述文字 */
 #nice figcaption {
-  color: #dda52d;
+  color: #1E9561;
   font-size: 14px;
 }
 
@@ -197,6 +198,7 @@ export default `/* 原谅绿 */
   color: #157D5A;
   margin: 0px;
   padding: 0px;
+  letter-spacing: 0;
 }
 
 /* "参考资料"四个字 
@@ -240,4 +242,4 @@ export default `/* 原谅绿 */
   display: inline-block;
   width:100%;
   margin-bottom: 0;
-}`;
+}`
