@@ -1,5 +1,13 @@
-export default `/* 默认主题：原谅绿 */
+export default `/* 原谅绿 */
 #nice {
+  font-family: Optima-Regular, Optima, Microsoft Yahei,STHeiti,Heiti SC,PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+}
+
+#nice h1,
+#nice h2,
+#nice h3 {
+  letter-spacing: 3px;
 }
 
 #nice p {
@@ -38,7 +46,7 @@ export default `/* 默认主题：原谅绿 */
 #nice h2 .content {
   display: inline-block;
   font-weight: bold;
-  background: linear-gradient(#fff 60%, #7DE699 30%);
+  background: linear-gradient(#fff 60%, #7DE699 40%);
   color: #515151;
   padding: 2px 10px;
   margin-right: 3px;
@@ -154,6 +162,7 @@ export default `/* 默认主题：原谅绿 */
 
 /* 行内代码 */
 #nice p code, #nice li code {
+  letter-spacing: 0;
   color: #0D6450;
   background-color: #D4FAD7;
   padding: 2px 6px;
