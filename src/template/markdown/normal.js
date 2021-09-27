@@ -1,4 +1,4 @@
-export default `/* 原谅绿 */
+export default `/* 凯里黄 */
 #nice {
   font-family: Optima-Regular, Optima, Microsoft Yahei,STHeiti,Heiti SC,PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 2px;
@@ -25,7 +25,7 @@ export default `/* 原谅绿 */
   padding-bottom: 10px;
   padding-left: 5px;
   margin-bottom: 5px;
-  border-bottom: 3px solid #2AAE67;
+  border-bottom: 3px solid #FBAA00;
 }
 /* 一级标题内容 */
 #nice h1 .content {
@@ -46,7 +46,7 @@ export default `/* 原谅绿 */
 #nice h2 .content {
   display: inline-block;
   font-weight: bold;
-  background: linear-gradient(#fff 60%, #7DE699 40%);
+  background: linear-gradient(#fff 60%, #FCC53F 40%);
   color: #515151;
   padding: 2px 10px;
   margin-right: 3px;
@@ -69,7 +69,7 @@ export default `/* 原谅绿 */
   font-weight: 700;
   font-size: 1.0em;
   padding-left: 10px;
-  border-left: 5px solid #2AAE67;
+  border-left: 5px solid #FBAA00;
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -80,13 +80,14 @@ export default `/* 原谅绿 */
 * 背景色 background: gray;
 */
 #nice .multiquote-1 {
-  border-left-color: #2AAE67;
-  background: #D4FAD7;
+  padding-left: 15px;
+  border-left-color: #FBAA00;
+  background: #FEF5CB;
 }
 
 /* 引用文字 */
 #nice .multiquote-1 p {
-  color: #085349;
+  color: #784100;
   letter-spacing: 1px;
 }
 
@@ -94,11 +95,11 @@ export default `/* 原谅绿 */
 #nice a {
   border: none;
   text-decoration: none;
-  color: #157D5A;
+  color: #D78B00;
 }
 
 #nice a:hover {
-  color: #2AAE67;
+  color: #B46E00;
   text-decoration: underline;
 }
 
@@ -138,8 +139,8 @@ export default `/* 原谅绿 */
 * border-top: 1px solid #3e3e3e;
 */
 #nice hr {
-  border-top: 1px solid #f9bf45;
-  margin: 20px 0px;
+  border-top: 4px solid #FBAA00;
+  margin: 30px 0px;
 }
 
 /* 图片
@@ -157,15 +158,15 @@ export default `/* 原谅绿 */
 
 /* 图片描述文字 */
 #nice figcaption {
-  color: #1E9561;
+  color: #FBAA00;
   font-size: 14px;
 }
 
 /* 行内代码 */
 #nice p code, #nice li code {
   letter-spacing: 0;
-  color: #0D6450;
-  background-color: #D4FAD7;
+  color: #915400;
+  background-color: #FEF5CB;
   padding: 2px 6px;
   margin: 3px;
 }
@@ -189,13 +190,13 @@ export default `/* 原谅绿 */
 
 /* 脚注文字 */
 #nice .footnote-word {
-  color: #157D5A;
+  color: #D78B00;
   padding: 3px;
 }
 
 /* 脚注上标 */
 #nice .footnote-ref {
-  color: #157D5A;
+  color: #D78B00;
   margin: 0px;
   padding: 0px;
   letter-spacing: 0;
@@ -207,7 +208,7 @@ export default `/* 原谅绿 */
 #nice .footnotes-sep:before {
   margin: 30px 0px 15px 0px;
   font-weight: 800;
-  color: #2AAE67;
+  color: #FBAA00;
 }
 
 
